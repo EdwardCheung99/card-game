@@ -1,0 +1,11 @@
+Need to be more skill based!
+
+-Change cards to numbers instead of types (1-9)
+-either first to 50 or deck is over
+-36 cards
+-fight for center cards. higher or equal number
+	-winner takes bottom 2
+	-top is discard
+-hand size: 6
+-turns: 10
+-can have at most 2 of each card when being dealt

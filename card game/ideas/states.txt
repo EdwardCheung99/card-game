@@ -1,0 +1,13 @@
+-Dealing card
+-Playing card from p1
+-Playing card from p2
+-Reveal CPU card, Play a sound and Update score
+-Removing cards from hands
+
+When deck is out
+-Put used pile back into deck
+-Shuffle
+
+RESTART
+
+gpu_set_texfilter(false);
