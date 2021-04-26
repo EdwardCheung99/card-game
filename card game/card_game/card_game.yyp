@@ -8,6 +8,7 @@
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},"order":1,},
     {"id":{"name":"spr_card_rock","path":"sprites/spr_card_rock/spr_card_rock.yy",},"order":2,},
     {"id":{"name":"scr_move_card","path":"scripts/scr_move_card/scr_move_card.yy",},"order":0,},
+    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":2,},
     {"id":{"name":"spr_card_3","path":"sprites/spr_card_3/spr_card_3.yy",},"order":6,},
     {"id":{"name":"spr_card_8","path":"sprites/spr_card_8/spr_card_8.yy",},"order":11,},
     {"id":{"name":"spr_card_paper","path":"sprites/spr_card_paper/spr_card_paper.yy",},"order":3,},
@@ -25,7 +26,6 @@
     {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},"order":0,},
     {"id":{"name":"fnt_result","path":"fonts/fnt_result/fnt_result.yy",},"order":2,},
     {"id":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},"order":1,},
-    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -46,9 +46,8 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrderNodes": [
-    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
-    {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
+  "RoomOrder": [
+    {"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -67,16 +66,16 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
-    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":-1,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.556",
+    "IDEVersion": "2.3.0.529",
   },
-  "resourceVersion": "1.4",
+  "resourceVersion": "1.3",
   "name": "card_game",
   "tags": [],
   "resourceType": "GMProject",
