@@ -1,4 +1,4 @@
-# Itch.IO
+# Itch.io
 https://echeung.itch.io/card-game-elaboration
 
 # How To Play:
